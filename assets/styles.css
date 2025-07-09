@@ -1,0 +1,170 @@
+@import url('reset.css');
+
+body {
+  background:black;
+}
+
+h2 {
+  color: #33A8DB; /* Cor azul para o título */
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 4px; /* Espaçamento entre letras */
+  font-weight: bold;
+  margin-bottom: 24px;/* Margem inferior de 24px */
+}
+
+p {
+  color: white;
+}
+
+section {
+  margin: 100px auto; /* Margem de 100px no topo e na base de cada seção */
+} 
+
+.banner {
+  height: 600px;  /* 600px é a altura do banner */
+  border-bottom: 1px solid #33A8DB; /* Linha azul na parte inferior do banner */
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./images/banner.png"); /* Imagem de fundo do banner */
+  padding-top: 60px; /* Preenchimento de 60px no topo */
+  background-size: cover; /* Cobertura da imagem de fundo */
+  background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+}
+
+.banner .banner-content {
+  margin: 600px center;
+  color: white;
+  text-align: center;
+  margin: auto;
+
+}
+
+.banner h1 {
+ font-size: 2.5rem; /* Tamanho da fonte do título */
+  font-weight: 900; /* Peso da fonte 900 */
+  text-transform: uppercase; /* Transformação do texto para maiúsculas */
+  color: transparent; /* Cor do texto transparente */
+  background: -webkit-linear-gradient(#33A8DB,#1473b7); /* Gradiente de cor do texto */
+  background-clip: text; /* Clip do fundo para o texto */
+  -webkit-background-clip: text; /* Clip do fundo para o texto */
+}
+
+.banner p {
+
+ font-size: 1.25rem; 
+ margin: 16px 0 24px; /* Margem de 16px no topo e 24px na base */
+ 
+}
+
+.banner .logo {
+  width: 260px; /* Largura do logo */
+  height: 260px; /* Altura do logo */
+  margin: auto; /* Margem automática para centralizar */
+  background-color: rgba(0,0,0, .2); /* Cor de fundo do logo com opacidade */
+  border-radius: 50%; /* Borda arredondada para o logo */
+  padding: 16; /* Preenchimento de 16px */
+  margin-bottom: 16px; /* Margem inferior de 16px */
+
+}
+
+.banner .logo img {
+  margin: auto; /* Margem automática para centralizar a imagem */
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ajuste da imagem para caber no contêiner */
+}
+
+.banner .banner-content button {
+  
+  background-color: transparent; /* Fundo transparente */
+  color: #33A8DB; /* Cor do texto do botão */
+  border: 2px solid #33A8DB; /* Borda azul */
+  padding: 16px 32px; /* Preenchimento de 12px no topo e na base, 24px nas laterais */
+  font-size: 1,5rem; /* Tamanho da fonte do botão */
+  font-weight: bold; /* Peso da fonte 700 */
+  border-image-slice: 10;
+  border-radius: 30px;
+  border-image: linear-gradient(45deg, #33A8DB, #1472B7) 1; /* Gradiente de borda */
+  letter-spacing: 4px;
+  text-transform: uppercase; /* Transformação do texto para maiúsculas */
+}
+
+#course-content {
+  width: 800px; /* Largura do conteúdo do curso */
+  text-align: center; /* Alinhamento do texto ao centro */
+}
+#course-content h2 {
+  font-size: 2rem; /* Tamanho da fonte do título */
+  font-weight: 900; /* Peso da fonte 900 */
+  text-transform: uppercase; /* Transformação do texto para maiúsculas */
+  color: #33A8DB; /* Cor azul para o título */
+  margin-bottom: 24px; /* Margem inferior de 24px */
+}
+#course-content .modules-list {
+ margin: 24px 0; /* Margem de 24px no topo e na base */
+}
+
+#course-content .modules-list .module {
+ background: rgba(128, 128, 128, 0.082); /* Fundo cinza claro com opacidade */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  padding: 20px; /* Preenchimento de 20px */
+  margin-bottom: 10px; /* Margem inferior de 10px */
+  border-radius: 32px; /* Borda arredondada */ 
+  margin-bottom: 10px; /* Margem inferior de 16px */
+  border-radius: 32px; /* Borda arredondada */
+  color: white; /* Cor do texto */
+  border: #33A8DB 1px solid; /* Borda azul */
+  margin: 0 auto 24px; /* Margem automática nas laterais e 24px na base */
+  width: 530px; /* Largura do módulo */
+  
+ 
+}
+
+#course-content .modules-list .module span {
+ color: #33A8DB; /* Cor azul para o texto do módulo */
+ font-weight: bold; /* Peso da fonte 700 */
+}
+
+#transform-world {
+  height: 530px; /* Altura da seção */
+  background-size: cover; /* Cobertura da imagem de fundo */
+  background-image: url("./images/woman-code.png"); /* Imagem de fundo */
+  background-attachment: fixed; /* Anexar a imagem de fundo */
+  border-top: 1px solid #33A8DB80; /* Linha azul na parte superior */
+  border-bottom: 1px solid #33A8DB80; /* Linha azul na parte inferior */
+  padding: 200px; /* Preenchimento de 200px */
+
+}
+
+#transform-world p {
+   font-weight: 900; /* Peso da fonte 900 */
+   font-size: 2.5rem; /* Tamanho da fonte */
+   text-transform: lowercase; /* Transformação do texto para minúsculas */
+   max-width: 250px; /* Largura máxima do parágrafo */
+   text-shadow: 3px 2px #33A8DB; /* Sombra do texto */
+}
+
+#professional-challenges {
+ text-align: center;
+ width: 800px; /* Largura da seção de desafios profissionais */
+}
+
+#professional-challenges img {
+  margin: 32px 0; /* Margem de 32px no topo e na base */
+}
+
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  border-top: 1px solid #33A8DB80;
+}
+
+footer .dio-logo {
+  width: 300px;
+}
+
+footer a {
+  color: #33A8DB;
+  font-weight: bold;
+  text-decoration: none;
+}
